@@ -1,0 +1,243 @@
+{
+  "header": {
+    "about-us": "About us",
+    "home": "Home",
+    "sister-companies": "Sister Companies",
+    "companies": "Companies",
+    "contact-us": "Contact Us",
+    "furniture": "Almira Carpet & Furniture",
+    "furniture-description": "Almira Carpet & Furniture",
+    "medical": "Almira Medical",
+    "medical-description": "Almira Medical",
+    "contracting": "Al-Mira Center For Trading ",
+    "contracting-description": "Al-Mira Center For Trading ",
+    "steamatic": "Almira Steamatic",
+    "steamatic-description": "Almira Steamatic",
+    "optics": "Almira Optics",
+    "optics-description": "Almira Optics"
+  },
+  "home": {
+    "learn-more": " Learn More",
+    "title": "ALMIRA GROUP",
+    "description": "Al-MIRA is a Group of companies that specialized in several different fields, and its role is to serve customers in the best possible way."
+  },
+  "about": {
+    "title": "About us",
+    "description": "Since the beginning of the twentieth century, Abdulghani Ibrahim Almira started trading spices from his shop located in the small market opposite the Grand Mosque in Mecca. The business then grew. \n\n In 1977, Abdulghani Ibrahim Almira laid the foundation stone for Almira Trading and Importing Establishment. \n\n In 1989, Abdul Latif and Mustafa, sons of Abdulghani Ibrahim Almira, established Almira Trading Center Limited Company Then in 1992, sons of Abdulghani Ibrahim Almira established Almira Investment Group",
+    "learn-more": " Learn More"
+  },
+  "facts": {
+    "title": "  Facts about Almira",
+    "cards": {
+      "1": "Projects in Hand & New",
+      "2": "Working Employment",
+      "3": "Business Line",
+      "4": "Completed Projects"
+    }
+  },
+  "sections": {
+    "title": "Almira Sections",
+    "companies": "Companies",
+    "sister-companies": "Sister Companies",
+    "furniture": "Almira Carpet & Furniture",
+    "medical": "Almira Medical",
+    "contracting": "Al-Mira Center For Trading ",
+    "steamatic": "Almira Stematic",
+    "optics": "Almira Optics"
+  },
+  "contact-us": {
+    "title": " Get the latest and greatest",
+    "phone-numbers": "   Phone Numbers",
+    "address": "Address",
+    "address-1": "Dammam - Khobar Road, Nasiriyah,",
+    "address-2": "Dammam, Kingdom of Saudi Arabia.",
+    "emails": "E-mail",
+    "form": {
+      "name": "Full name",
+      "message": "Message",
+      "subject": "Subject",
+      "email": "Email",
+      "phone-number": "Phone number",
+      "submit": "Send"
+    }
+  },
+  "furniture": {
+    "title": "ALMIRA CARPET & FURNITURE",
+    "carpets": "Carpets",
+    "about": {
+      "title": "About AL-Mira Carpet & Furniture",
+      "description": "The company has over 50 years of experience in the carpet industry as a retailer of high quality imported floor coverings; carpets, carpet tiles, vinyl flooring, rugs, parquet and underlay, etc \n\n We also have a wide collection of local made carpets manufactured by our Sister Company, M/s. Al-Mira Carpet Factory Co. Ltd. Our factory manufactures high quality commercial contract carpets specifically for residential compounds, mosques, offices, hotels, banks, commercial establishments and schools made out of 100% PP, 100% Acrylic and 80/20 Wool/Nylon \n\n Our reputation relies not only in providing good quality carpet but also in giving high standard of quality service to our customers through our well-trained professional staff and up to date high technology tools and equipment. Our well-known satisfied clients include; Saudi Aramco, Saudi Oger, Palaces, several western Housing Compounds, company staff quarters and business complexes around the Kingdom – a list containing some more companies is attached herewith \n\nIn addition, our company is also engaged in marketing a wide range of imported furniture, décor and gift articles. Our showrooms are located at Dammam, Jeddah, and Al Khoba"
+    },
+    "projects": {
+      "governmentProjects": "Government Projects",
+      "companyProjects": "Company Projects",
+      "hotelProjects": "Hotel Projects",
+      "mosqueProjects": "Mosque Projects",
+      "projects": {
+        "government": {
+          "1": "King Fahd University of Petroleum and Minerals - Dhahran, Eastern Province.",
+          "2": "King Faisal University - Al-Ahsa.",
+          "3": "King Khalid University - Abha.",
+          "4": "Umm Al-Qura University - Mecca.",
+          "5": "King Abdulaziz University.",
+          "6": "King Abdullah University.",
+          "7": "King Saud University.",
+          "8": "Najran University.",
+          "9": "King Abdulaziz Medical City.",
+          "10": "Ministry of Interior - Riyadh.",
+          "11": "Ministry of Hajj and Islamic Affairs.",
+          "12": "General Authority of Civil Aviation.",
+          "13": "Saudi Aramco.",
+          "14": "Saudi Electricity Company in all branches.",
+          "15": "Governorate of Makkah Region.",
+          "16": "King Fahd Medical Complex.",
+          "17": "King Fahd Medical Hospital.",
+          "18": "King Faisal Specialist Hospital.",
+          "19": "King Fahd International Airport.",
+          "20": "Al-Baha University.",
+          "21": "National Guard in Al-Ahsa.",
+          "22": "SABIC.",
+          "23": "Railways.",
+          "24": "Yanbu Cement Company.",
+          "25": "Eastern Province Cement Company."
+        },
+        "company": {
+          "1": "CCE Construction and Contracting Company.",
+          "2": "Al-Yamama Company.",
+          "3": "Al-Assis Contracting Company.",
+          "4": "Royal Commission for Jubail and Yanbu.",
+          "5": "Al-Angari Company (Meteorology Project in Jeddah).",
+          "6": "Saudi Oger Group in all branches.",
+          "7": "Bin Laden Group.",
+          "8": "Nesma Company.",
+          "9": "Essam Qabbani Company.",
+          "10": "Rabya Company.",
+          "11": "Al-Dabbagh Group.",
+          "12": "Jad Chrome Group for Hotel Operations in the Western Region.",
+          "13": "Riyadh Bank in all branches across the Kingdom.",
+          "14": "SABB Bank.",
+          "15": "Al-Haj Hussein Ali Reza Company.",
+          "16": "Al-Razi.",
+          "17": "Al-Tamimi.",
+          "18": "Saad Holding Group.",
+          "19": "Marafiq Company for Electricity and Water in Jubail and Yanbu.",
+          "20": "Al-Manara Company in Jubail.",
+          "21": "Al-Othman Agricultural Production and Manufacturing Company.",
+          "22": "Al-Sagheer Contracting Company.",
+          "23": "Al-Majal Al-Arabi Contracting Company.",
+          "24": "Al-Juffali & Brothers."
+        },
+        "hotel": {
+          "1": "Jeddah Airport Hotel.",
+          "2": "Ramada Jeddah Hotel.",
+          "3": "Al-Dar Al-Bayda Jeddah Hotel.",
+          "4": "Al-Bilad Jeddah Hotel.",
+          "5": "Meridian Madinah Hotel.",
+          "6": "Al-Ameen Chrome Madinah Hotel.",
+          "7": "Al-Mihrab Madinah Hotel.",
+          "8": "Al-Israa Madinah Hotel.",
+          "9": "Al-Harithiya Madinah Hotel.",
+          "10": "Abraj Al-Bait Mecca Hotel.",
+          "11": "Al-Safa Sit Group Mecca Hotel.",
+          "12": "Al-Bassam Mecca Hotel.",
+          "13": "Grand Coral Halls Mecca Hotel.",
+          "14": "Jad Hotels Group Mecca.",
+          "15": "Al-Qusaibi Hotel Khobar.",
+          "16": "Al-Malika Hotel Riyadh.",
+          "17": "Sheraton Hotel Dammam.",
+          "18": "Dammam Hotel.",
+          "19": "Coral Hotel Khobar."
+        },
+        "mosque": {
+          "1": "Abdul Razzaq Qanbar Al-Ansari Mosque in the center of Dammam, Al-Nakheel District.",
+          "2": "Royal Commission Mosques in Jubail.",
+          "3": "Khalifa Al-Qusaibi Mosque (Al-Muneera) in Al-Nassiriyah, Dammam.",
+          "4": "Badr Al-Kubra Mosque in Al-Mazruiyah, Dammam.",
+          "5": "Fahd Al-Hoqail Mosque next to the Ministry of Foreign Affairs, Dammam.",
+          "6": "Al-Hussan Mosque in Al-Mazruiyah, Dammam.",
+          "7": "Mouwasat Hospital Mosque in Jubail.",
+          "8": "Al-Zubair Ibn Al-Awam Mosque in Al-Mazruiyah, Dammam.",
+          "9": "Al-Arifi Mosque on Bahrain Road.",
+          "10": "King Fahd Causeway Mosque on Bahrain Road."
+        }
+      }
+    }
+  },
+  "segment-control": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "projects": "projects"
+  },
+  "medical": {
+    "title": "Almira Medical",
+    "segment-control": {
+      "home": "Medical",
+      "gallery": "Dental",
+      "projects": "Projects & Services"
+    },
+    "about": {
+      "title": "About Al-Mira Medical",
+      "text1": "Since 1979, Al-Mira Centre for trading Co. Ltd. Hospital Equipment & Medical Requirements Has Been Trading And Supplying Sophisticated Medical Equipment For Every Department Of Hospital /Clinic In Both Government And Private Sector. Through Its Four Branches With Big Show Rooms In The Main Key Cities Of The Kingdom of Saudi Arabia and all other G.C.C states. Also we have other projects in some middle east countries",
+      "text2": "This Division Covers Complete Range From Quality Disposable, Beds Etc. To Sophisticated Equipment Via; X-Rays, Ultrasound, Monitoring Systems, Baby Incubators, ECG, Sterilizers, Ventilators Nebulizers, Dental Chairs And All Other Dental Materials. The Division Is Committed To Quality After-Sales Service Backed By Qualified And Trained Team Of Engineers And Technicians. We Are Also Sole Agents For Several World-Renowned Firms And Manufacturers \n\n Also It Is One Of The Leading Companies Supplying a Different Range Of Medical Disposable To The Leading Hospitals & Clinics To All Over The Kingdom",
+      "text3": "Also It Is One Of The Leading Companies Authorised To Maintain Ministry Of Health Hospital Equipment. Now More Than 300 Different Models And Made Of X-Ray Machines Are Under Their Contract Us To Maintain. Apart From That Maintenance Of Other Private Hospitals And Dispensaries. \n\n Fukuda Denshi Co., Ltd– Japan :70 years of experience in the development of medical technology. The history of Fukuda Denshi Co., Ltd is the history of the Electrocardiograph. From the first Electrocardiograph in Japan until now, a history of our innovations is listed. Also has contributed significantly to the advancement of people's health through the production and sales of a wide range of medical equipment centering on cardiovascular and respiratory systems. \n\n Atom Medical Corporation– Japan: With 'respect for life' in mind, Atom Medical Corporation has been promoting research and development for state-of-the-art medical care. As an all-round manufacturer specialising in the production of medical equipment mainly in the field of perinatal care, Atom Medical Corporation has been promoting research and development to meet the most recent medical needs in clinical settings. By making full use of our various data accumulated over the years and state-of-the-art research equipment, we have been developing advanced products speedily. With 'respect for life' in mind and looking ahead of the times, we are making persistent efforts to develop medical technology and products that will meet the needs of medical care providers in the future. \n\nParamount Bed Co, Ltd – Japan: Japan’s No. 1 Hospital Bed Manufacturer, a world-leading healthcare technology company, 'Listening to our customers' has been the Paramount watchword since our founding in 1947. We offer a broad range of premium-quality beds and accessories to meet the complex needs of caregivers and recipients as an integral part of healthcare environments. \n\n Also It Is One Of The Leading Companies Authorised To Maintain Ministry Of Health Hospital Equipment. Now More Than 300 Different Models And Made Of X-Ray Machines Are Under Their Contract Us To Maintain. Apart From That Maintenance Of Other Private Hospitals And Dispensaries."
+    },
+    "about-page": {
+      "title": "About Al-Mira Dental",
+      "description": "the GCof the 21st century takes a global approach to people's health and happinessThrough dentists, technicians, hygienists and other dental professionals around the world, GC's quality dental care products make a major contribution to people's health. As a dental product manufacturer of global standing, GC Corporation constantly seeks to produce original products that are environmentally friendly as well as patient friendly and going a step ahead of patient's needs, while at the same time taking great care to minimise the impact of manufacturing processes on the environment.Producing products that are people friendly and earth friendly, we will continue to create highly value-added products so as to provide oral health to the people of the world during the 21st century, a century we regard as the century of health.",
+      "details": {
+        "title": "REPRESENTED – Manufacturers",
+        "text1": "GC Corp. - Japan. DENTAL MATERIALS Luting/Adhesive materials, Restorative materials, Impression materials, Waxes, Stones/Investments, Denture base resins, Other resins, Artificial teeth/Porcelain, Dental alloys, Abrasives/Burs, Root canal instruments, Hand instruments, Preventive products, Infection control related products, Other materials, Related devices.",
+        "text2": "TEKNO-MEDICAL Optik C. GmbH & Co KG Surgical Instruments of Micro- and NeuroSurgery, Endoscopy, including, Laparoscopy ,Urology ,Hysteroscopy ,Arthroscopy ,Sinuscopy ,Video units ,Gynecology ,Heart-, Thorax- and Vessel-Surgery ,Orthopedics ,Abdominal-Surgery ,HF-Surgery",
+        "text3": "Prestige Medical - U.K: Is one of the world's leading manufacturers of bench-top autoclaves.\nFrank Dental: area of rotary instruments for dentists, orthodontists, oral and maxillofacial surgeons, preventive treatment practices and laboratories - sterilised or non sterilised packaged.",
+        "text4": "frank.dental - technologie vom tegernsee",
+        "text5": "Svenska Dentorama AB: is one of the leading Scandinavian manufacturers and exporters of dental consumables \n\n ANGELUS INDUSTRIA DE PRODUTOS ODONTOLÓGICOS S/A.: Manufactures of Endodontics, Laboratory, Preventive dentistry, Restorative Dentistry and Prosthodontics. \n\nJUN-AIR –Denmark: Supplies clean and quiet air – a complete compressed air solution In dental clinics, laboratories, for food and beverages, graphics, door opening devices, medical and health equipments Etc…. \n\nSAS RUBBER PRODUCTS CO.,LTD.: Manufacturers and Exporters of High quality disposable Latex Gloves."
+      }
+    },
+    "projects": {
+      "title": "Projects and services division",
+      "description": "The Projects and Services Division of Al-Mira Centre was earlier a part of the Medical Division and was working as after Sales- Service Dept. of the Medical division. Then, the Service department of Al-Mira Centre started working as an alternative to Siemens Service in the eastern province of the Kingdom and started concentrating on providing third party services as Service Contracts and Calibration/quality assurance services for major X-ray Equipments as per MOH and ARAMCO requirements in the region. \n\n More than Five Years this Department was separated from Medical Sales Division and launched as full fledged division concentrating mainly on Third Party Service Contracts for Hospitals & Dispensaries; supply of genuine Spare-parts, X-ray Tubes, Equipment Upgrades, digitization of radiology Dept., deinstallation and reinstallation services. Presently we provide complete support on SIEMENS equipment ranging from ECG Monitors to CT Scanners.\n\nThe Division hails to bag a pretty good number of service contracts from the Private hospitals and Dispensaries for Various X-ray equipment and CT Scanners amounting to above One Million Saudi Riyals. Furthermore we have done Jobs for M O H Eastern province on their requests for Siemens equipment. \n\n The Division is backed by OEM Trained Service Engineer for Technical Support / Consultation and fully equipped with specialized tools from world renowned manufacturer’s for carrying out Calibration/quality assurance and fast repairs. We are also backed by several large organizations overseas for timely supply of Spare-parts and Technical support in need.We were recently awarded the Maintenance project for Siemens equipment by MOH Mekkah for Holy Mekkah, Arafat & Muna. \n\n\n After our approval for the Riyadh region we have added two more engineers to our staff to work specifically on Siemens Equipments. \n\n\n REPRESENTED Manufacturers: \n\n Spellman High Voltage Electronics GmbH - Germany: The K&S Röntgenwerk, Bochum, a company specialising in the development of high-frequency generators, x-ray equipment and digital imaging processing, introduces itself"
+    }
+  },
+  "contracting": {
+    "title": "Al-Mira Center For Trading Co. Ltd. (Contracting and Maintenance).",
+    "segment-control": {
+      "home": "Home",
+      "services": "Services",
+      "projects": "Projects"
+    },
+    "about": {
+      "title": "About Al-Mira For Steel Building",
+      "description": "Al-Mira undertakes the Construction of Projects on a Turnkey basis. This includes: Site Preparation. Substructure and Superstructure concrete works. Finishing work. Supply and Steel Erection buildings…etc",
+      "title2": "Steel Erection",
+      "description2": "Specialized Erectors of Pre-engineered and Structural Steel Buildings and cladding products. Al-Mira has a distinctive track record of successful steel erection jobs for all types",
+      "title3": "Al-Mira Center For Trading Co. Ltd. Contracting and Maintenance",
+      "description3": "Contracting and Maintenance Division is one of the leading steel buildings contracting companies in Saudi Arabia"
+    }
+  },
+
+  "steamatic": {
+    "title": "ALMIRA STEAMATIC",
+    "segment-control": {
+      "home": "Home",
+      "gallery": "Gallery",
+      "customers": "Customers",
+      "services": "Our Services"
+    },
+
+    "about": {
+      "title": "Al Mira Steamatic",
+      "description": "Al Mira Steamatic is a master franchisee of Steamatic Inc USA. Our company provides high quality indoor air services and emergency response services.\n\n Al Mira Steamatic continues to penetrate the market by focusing on three types of customers; the home owners, the building owners/managers and the insurance adjuster \n\n We provide them all the necessary services to keep the indoor environment clean and recover from fires, flood and natural disaster at the lowest costs in the quickest possible time frame \n\n Al Mira Investment Group Co. Ltd established Al Mira Steamatic in 1991 currently operating in the Kingdom of Saudi Arabia with offices located in Dammam, Jubail, Jeddah, Makkah, Madina, Yanbu and Riyadh, we recently opened our branch in UAE Dubai \n\n Al Mira Steamatic has a history of being a leader in the indoor air quality and emergency response business. We have eleven profit sources namely Fire Restoration, Water Restoration, Carpet Cleaning, Furniture Cleaning, Drapery Cleaning, Air Duct and Coil Cleaning, Wood Restoration, Ceiling Cleaning and Wall and Floor Cleaning \n\nWe are proud to announce that Al Mira Steamatic is certified and accredited by some of the biggest companies and institutes in Restoration service"
+    },
+    "customers": {
+      "first": {
+        "1": "first",
+        "2": "first"
+      },
+      "second": {
+        "1": "text",
+        "2": "text2"
+      }
+    },
+    "services-page": {}
+  }
+}

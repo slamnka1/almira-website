@@ -1,0 +1,62 @@
+"use client"
+import { facts1, facts2, facts3, facts4 } from "@/assets"
+import { useTranslations } from "next-intl"
+
+export function Facts() {
+  const t = useTranslations("facts")
+  return (
+    <section className="bg-[#E0ECE5]">
+      {/* Container */}
+      <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-20">
+        {/* Title */}
+        <div className="mb-12 flex flex-col md:justify-between md:flex-row">
+          <h2 className="mb-8 text-3xl max-w-lg font-bold md:mb-12 md:text-5xl lg:mb-16">
+            {t("title")}
+          </h2>
+          {/* <p className="text-sm text-gray-500 max-w-lg">
+            Consectetur adipiscing elit duis tristique sollicitudin nibh. Augue
+            mauris augue neque gravida in fermentum. Sapien pellentesque
+            habitant morbi tristique pellentesque.
+          </p> */}
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+          {/* FactsCard */}
+          <div className="bg-gray-100 rounded-lg py-10 px-5 flex flex-col justify-between h-80">
+            <div className="text-xl font-semibold">
+              <h3>+500</h3>
+              <p>{t("cards.1")}</p>
+            </div>
+            <img className="h-40" src={facts1.src} loading="lazy" alt="icon" />
+          </div>
+          {/* FactsCard */}
+          <div className="bg-gray-100 rounded-lg py-10 px-5 flex flex-col justify-between h-80">
+            <div className="text-xl font-semibold">
+              <h3>+1400</h3>
+              <p>{t("cards.2")}</p>
+            </div>
+
+            <img className="h-40" src={facts2.src} loading="lazy" alt="icon" />
+          </div>
+          {/* FactsCard */}
+          <div className="bg-gray-100 rounded-lg py-10 px-5 flex flex-col justify-between h-80">
+            <div className="text-xl font-semibold">
+              <h3>+13</h3>
+              <p>{t("cards.3")}</p>
+            </div>
+
+            <img className="h-40" src={facts3.src} loading="lazy" alt="icon" />
+          </div>
+          {/* FactsCard */}
+          <div className="bg-gray-100 rounded-lg py-10 px-5 flex flex-col justify-between h-80">
+            <div className="text-xl font-semibold">
+              <h3>+10000</h3>
+              <p>{t("cards.4")}</p>
+            </div>
+
+            <img className="h-40" src={facts4.src} loading="lazy" alt="icon" />
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
