@@ -1,3 +1,12 @@
+import {
+  furnitureLogo,
+  medicalLogo,
+  opticsLogo,
+  steamaticLogo,
+  steel,
+  steelLogo,
+} from "@/assets"
+
 export const navItems = [
   {
     label: "home",
@@ -6,16 +15,16 @@ export const navItems = [
   {
     label: "companies",
     link: [
-      { label: "furniture", link: "/furniture" },
-      { label: "medical", link: "/medical" },
-      { label: "contracting", link: "/contracting" },
+      { label: "furniture", link: "/furniture", src: furnitureLogo.src },
+      { label: "medical", link: "/medical", src: medicalLogo.src },
+      { label: "contracting", link: "/contracting", src: steelLogo.src },
     ],
   },
   {
     label: "sister-companies",
     link: [
-      { label: "steamatic", link: "/steamatic" },
-      { label: "optics", link: "/optics" },
+      { label: "steamatic", link: "/steamatic", src: steamaticLogo.src },
+      { label: "optics", link: "/optics", src: opticsLogo.src },
     ],
   },
   {
