@@ -46,11 +46,11 @@ import steelAboutImage from "./bFsteelwebp.webp"
 
 import gate from "./line.webp"
 
-import steelBg from "./buldings.png"
+import steelBg from "./hero3.png"
 import opticsBg from "./glasses.jpg"
 import stematicBg from "./clean.jpg"
 import carpetBg from "./chair.jpeg"
-import medicalBg from "./bed3.png"
+import medicalBg from "./medical1.webp"
 
 import vacumeEn from "./vaccInArabic.webp"
 import vacumeAr from "./vacuum.webp"
