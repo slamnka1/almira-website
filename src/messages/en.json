@@ -19,7 +19,14 @@
   "home": {
     "learn-more": " Learn More",
     "title": "ALMIRA GROUP",
-    "description": "Al-MIRA is a Group of companies that specialized in several different fields, and its role is to serve customers in the best possible way."
+    "description": "Al-MIRA is a Group of companies that specialized in several different fields, and its role is to serve customers in the best possible way.",
+    "contact-us": {
+      "title": "FOR MORE INFORMATION",
+      "button": "Contact us"
+    },
+    "footer": {
+      "title": "Almira Group"
+    }
   },
   "about": {
     "title": "About us",
@@ -239,5 +246,8 @@
       }
     },
     "services-page": {}
+  },
+  "gate": {
+    "title": "YOUR GATE TO INVESTMENT"
   }
 }

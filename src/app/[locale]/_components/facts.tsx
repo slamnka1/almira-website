@@ -1,7 +1,7 @@
 "use client"
 import { facts1, facts2, facts3, facts4 } from "@/assets"
 import { useTranslations } from "next-intl"
-
+import CountUp from "react-countup"
 export function Facts() {
   const t = useTranslations("facts")
   return (
@@ -23,7 +23,9 @@ export function Facts() {
           {/* FactsCard */}
           <div className="bg-gray-100 rounded-lg py-10 px-5 flex flex-col justify-between h-80">
             <div className="text-xl font-semibold">
-              <h3>+500</h3>
+              <h3>
+                <CountUp scrollSpyOnce enableScrollSpy end={500} prefix="+ " />
+              </h3>
               <p>{t("cards.1")}</p>
             </div>
             <img className="h-40" src={facts1.src} loading="lazy" alt="icon" />
@@ -31,7 +33,9 @@ export function Facts() {
           {/* FactsCard */}
           <div className="bg-gray-100 rounded-lg py-10 px-5 flex flex-col justify-between h-80">
             <div className="text-xl font-semibold">
-              <h3>+1400</h3>
+              <h3>
+                <CountUp scrollSpyOnce enableScrollSpy end={1400} prefix="+ " />
+              </h3>
               <p>{t("cards.2")}</p>
             </div>
 
@@ -40,7 +44,9 @@ export function Facts() {
           {/* FactsCard */}
           <div className="bg-gray-100 rounded-lg py-10 px-5 flex flex-col justify-between h-80">
             <div className="text-xl font-semibold">
-              <h3>+13</h3>
+              <h3>
+                <CountUp scrollSpyOnce enableScrollSpy end={13} prefix="+ " />
+              </h3>
               <p>{t("cards.3")}</p>
             </div>
 
@@ -49,7 +55,14 @@ export function Facts() {
           {/* FactsCard */}
           <div className="bg-gray-100 rounded-lg py-10 px-5 flex flex-col justify-between h-80">
             <div className="text-xl font-semibold">
-              <h3>+10000</h3>
+              <h3>
+                <CountUp
+                  scrollSpyOnce
+                  enableScrollSpy
+                  end={10000}
+                  prefix="+ "
+                />
+              </h3>
               <p>{t("cards.4")}</p>
             </div>
 

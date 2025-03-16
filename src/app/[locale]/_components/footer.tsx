@@ -1,3 +1,4 @@
+import { logo } from "@/assets"
 import { navItems } from "@/content/site"
 import { Link } from "@/i18n/navigation"
 import { Mail, MapPin } from "lucide-react"
@@ -12,8 +13,9 @@ export function Footer() {
         {/* Component */}
         <div className="sm:flex-row flex justify-between flex-col">
           <h2 className="font-bold text-3xl uppercase md:text-5xl w-full max-w-xl text-white">
-            Almira Group
+            {t("home.footer.title")}
           </h2>
+          {/* <img src={logo.src} alt="almira group" /> */}
           <div className="mt-8 md:mt-0">
             <div className="mb-4 flex max-w-72 items-start gap-4 justify-start">
               <MapPin size={24} className="text-gray-200 shrink-0" />
