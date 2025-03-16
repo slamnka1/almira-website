@@ -12,6 +12,7 @@ import { StaticImageData } from "next/dist/shared/lib/get-img-props"
 import Image from "next/image"
 import { useParams } from "next/navigation"
 import { useCallback } from "react"
+import { motion } from "motion/react"
 
 const Slide = ({ src, index }: { src: StaticImageData; index: number }) => {
   const { ref, inViewport } = useInViewport()
@@ -65,19 +66,68 @@ export function Hero() {
         </div>
       </div>
 
-      <div className=" w-full max-w-2xl px-4 absolute top-1/2 left-1/2 -translate-[50%] z-[1] flex flex-col justify-center items-center text-center">
-        <h1 className="text-6xl font-bold leading-tight mb-4 select-none">
-          {t("title")}
-        </h1>
-        <p className="text-xl text-gray-200 mb-8 max-w-2xl select-none">
-          {t("description")}
-        </p>
-        <Link
-          href="/about-us"
-          className="select-none rounded-md bg-primary px-6 py-3 text-center font-semibold text-white"
+      <div className=" perspective-near w-full max-w-2xl px-4 absolute top-1/2 left-1/2 -translate-[50%] z-[1] flex flex-col justify-center items-center text-center">
+        <motion.h1
+          initial={{
+            y: 15,
+            opacity: 0,
+            rotateX: -90,
+          }}
+          animate={{
+            y: 0,
+            rotateX: 0,
+            opacity: 1,
+          }}
+          transition={{
+            delay: 0.2,
+            duration: 1,
+          }}
+          className="text-6xl font-bold leading-tight mb-4 select-none"
         >
-          {t("learn-more")}
-        </Link>
+          {t("title")}
+        </motion.h1>
+        <motion.p
+          initial={{
+            y: 15,
+            opacity: 0,
+            rotateX: -40,
+          }}
+          animate={{
+            y: 0,
+            opacity: 1,
+            rotateX: 0,
+          }}
+          transition={{
+            delay: 0.5,
+            duration: 1,
+          }}
+          className="text-xl text-gray-200 mb-8 max-w-2xl select-none"
+        >
+          {t("description")}
+        </motion.p>
+        <motion.div
+          initial={{
+            y: 15,
+            opacity: 0,
+            rotateX: -40,
+          }}
+          animate={{
+            y: 0,
+            opacity: 1,
+            rotateX: 0,
+          }}
+          transition={{
+            delay: 0.9,
+            duration: 1,
+          }}
+        >
+          <Link
+            href="/about-us"
+            className="select-none rounded-md bg-primary px-6 py-3 text-center font-semibold text-white"
+          >
+            {t("learn-more")}
+          </Link>
+        </motion.div>
       </div>
       <div className="absolute bottom-10 md:right-5 lg:right-10 flex rtl:flex-row-reverse gap-2 flex-nowrap">
         <button

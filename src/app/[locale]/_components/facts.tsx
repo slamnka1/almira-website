@@ -2,6 +2,8 @@
 import { facts1, facts2, facts3, facts4 } from "@/assets"
 import { useTranslations } from "next-intl"
 import CountUp from "react-countup"
+import { motion } from "motion/react"
+
 export function Facts() {
   const t = useTranslations("facts")
   return (
@@ -21,7 +23,24 @@ export function Facts() {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
           {/* FactsCard */}
-          <div className="bg-gray-100 rounded-lg py-10 px-5 flex flex-col justify-between h-80">
+          <motion.div
+            initial={{
+              y: 10,
+              opacity: 0,
+            }}
+            whileInView={{
+              y: 0,
+              opacity: 1,
+            }}
+            transition={{
+              y: {
+                type: "spring",
+                stiffness: 250,
+              },
+              delay: 0,
+            }}
+            className="bg-gray-100 rounded-lg py-10 px-5 flex flex-col justify-between h-80"
+          >
             <div className="text-xl font-semibold">
               <h3>
                 <CountUp scrollSpyOnce enableScrollSpy end={500} prefix="+ " />
@@ -29,9 +48,26 @@ export function Facts() {
               <p>{t("cards.1")}</p>
             </div>
             <img className="h-40" src={facts1.src} loading="lazy" alt="icon" />
-          </div>
+          </motion.div>
           {/* FactsCard */}
-          <div className="bg-gray-100 rounded-lg py-10 px-5 flex flex-col justify-between h-80">
+          <motion.div
+            initial={{
+              y: 10,
+              opacity: 0,
+            }}
+            whileInView={{
+              y: 0,
+              opacity: 1,
+            }}
+            transition={{
+              y: {
+                type: "spring",
+                stiffness: 250,
+              },
+              delay: 0.3,
+            }}
+            className="bg-gray-100 rounded-lg py-10 px-5 flex flex-col justify-between h-80"
+          >
             <div className="text-xl font-semibold">
               <h3>
                 <CountUp scrollSpyOnce enableScrollSpy end={1400} prefix="+ " />
@@ -40,9 +76,26 @@ export function Facts() {
             </div>
 
             <img className="h-40" src={facts2.src} loading="lazy" alt="icon" />
-          </div>
+          </motion.div>
           {/* FactsCard */}
-          <div className="bg-gray-100 rounded-lg py-10 px-5 flex flex-col justify-between h-80">
+          <motion.div
+            initial={{
+              y: 10,
+              opacity: 0,
+            }}
+            whileInView={{
+              y: 0,
+              opacity: 1,
+            }}
+            transition={{
+              y: {
+                type: "spring",
+                stiffness: 250,
+              },
+              delay: 0.6,
+            }}
+            className="bg-gray-100 rounded-lg py-10 px-5 flex flex-col justify-between h-80"
+          >
             <div className="text-xl font-semibold">
               <h3>
                 <CountUp scrollSpyOnce enableScrollSpy end={13} prefix="+ " />
@@ -51,9 +104,26 @@ export function Facts() {
             </div>
 
             <img className="h-40" src={facts3.src} loading="lazy" alt="icon" />
-          </div>
+          </motion.div>
           {/* FactsCard */}
-          <div className="bg-gray-100 rounded-lg py-10 px-5 flex flex-col justify-between h-80">
+          <motion.div
+            initial={{
+              y: 10,
+              opacity: 0,
+            }}
+            whileInView={{
+              y: 0,
+              opacity: 1,
+            }}
+            transition={{
+              y: {
+                type: "spring",
+                stiffness: 250,
+              },
+              delay: 0.9,
+            }}
+            className="bg-gray-100 rounded-lg py-10 px-5 flex flex-col justify-between h-80"
+          >
             <div className="text-xl font-semibold">
               <h3>
                 <CountUp
@@ -67,7 +137,7 @@ export function Facts() {
             </div>
 
             <img className="h-40" src={facts4.src} loading="lazy" alt="icon" />
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
