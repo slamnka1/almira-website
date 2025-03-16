@@ -1,3 +1,11 @@
+import {
+  furnitureLogo,
+  medicalLogo,
+  opticsLogo,
+  steamaticLogo,
+  steelLogo,
+} from "@/assets"
+
 export function Companies() {
   return (
     <section>
@@ -40,8 +48,8 @@ export function Companies() {
               most centres in the world.
             </p>
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
-              alt=""
+              src={furnitureLogo.src}
+              alt="Furniture and Carpets Department"
               className=" h-32 w-32    sm:h-40  sm:min-w-[48px] md:w-40 "
             />
           </div>
@@ -72,8 +80,8 @@ export function Companies() {
               private hospitals and clinics.
             </p>
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
-              alt=""
+              src={medicalLogo.src}
+              alt=" Medical Department."
               className=" h-32 w-32    sm:h-40  sm:min-w-[48px] md:w-40 "
             />
           </div>
@@ -98,8 +106,8 @@ export function Companies() {
               included the following:
             </p>
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
-              alt=""
+              src={steelLogo.src}
+              alt="Contracting and Maintenance Department"
               className=" h-32 w-32    sm:h-40  sm:min-w-[48px] md:w-40 "
             />
           </div>
@@ -123,8 +131,8 @@ export function Companies() {
               at the lowest cost and in the shortest possible time frame.
             </p>
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
-              alt=""
+              src={steamaticLogo.src}
+              alt=" Al Mira Steamatic"
               className=" h-32 w-32    sm:h-40  sm:min-w-[48px] md:w-40 "
             />
           </div>
@@ -148,8 +156,8 @@ export function Companies() {
               services to maintain the satisfaction of our valued customers.
             </p>
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
-              alt=""
+              src={opticsLogo.src}
+              alt="Al Mira Optical Company Limited"
               className=" h-32 w-32    sm:h-40  sm:min-w-[48px] md:w-40 "
             />
           </div>
