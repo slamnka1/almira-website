@@ -2,7 +2,7 @@ import { aboutImage } from "@/assets"
 import { useTranslations } from "next-intl"
 
 export function Hero() {
-  const t = useTranslations()
+  const t = useTranslations("about-page")
   return (
     <section className="mb-10">
       {/* Hero top */}
@@ -11,7 +11,7 @@ export function Hero() {
         <div className="mx-auto max-w-7xl px-5 py-16 md:px-10 md:py-20">
           {/* Title */}
           <h1 className="mb-6 max-w-3xl text-4xl font-bold md:mb-10 md:text-6xl lg:mb-12 md:leading-tight text-white">
-            About page title, should be long enough
+            {t("title")}
           </h1>
         </div>
       </div>
@@ -21,17 +21,13 @@ export function Hero() {
         <div className="relative flex max-w-7xl flex-col gap-4 md:flex-row lg:justify-end">
           <div className="max-w-2xl md:mr-[470px]  md:max-w-md lg:mr-auto">
             {/* Title */}
-            <h3 className="text-2xl font-bold md:text-3xl">Introduction</h3>
+            <h3 className="text-2xl font-bold md:text-3xl">
+              {t("introduction")}
+            </h3>
             {/* Divider */}
             <div className="my-6 w-16 border-t border-black"></div>
-            <p className="text-lg text-gray-500">
-              From the beginning of the twentieth century, Abdulghani Ibrahim
-              Mira commenced trading in spices from his shop located in Souk
-              Al-sagheer opposite the holy Mosque in Makkah. In1977, Abdulghani
-              Ibrahim Mira laid the foundation for Al-Mira Establishment for
-              Trading and Import In1989Abdullatif and Mustafa, sons of
-              Abdulghani Ibrahim Mira formed Al-Mira Centre for Trading Co. Ltd.
-              Including the following
+            <p className="text-lg whitespace-pre-line text-gray-500">
+              {t("description")}
             </p>
           </div>
           {/* Image */}

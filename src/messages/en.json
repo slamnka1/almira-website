@@ -25,7 +25,8 @@
       "button": "Contact us"
     },
     "footer": {
-      "title": "Almira Group"
+      "title": "Almira Group",
+      "location": "Dammam - Khobar Road, Nasiriyah, Dammam, Kingdom of Saudi Arabia.\n"
     }
   },
   "about": {
@@ -221,7 +222,6 @@
       "description3": "Contracting and Maintenance Division is one of the leading steel buildings contracting companies in Saudi Arabia"
     }
   },
-
   "steamatic": {
     "title": "ALMIRA STEAMATIC",
     "segment-control": {
@@ -230,7 +230,6 @@
       "customers": "Customers",
       "services": "Our Services"
     },
-
     "about": {
       "title": "Al Mira Steamatic",
       "description": "Al Mira Steamatic is a master franchisee of Steamatic Inc USA. Our company provides high quality indoor air services and emergency response services.\n\n Al Mira Steamatic continues to penetrate the market by focusing on three types of customers; the home owners, the building owners/managers and the insurance adjuster \n\n We provide them all the necessary services to keep the indoor environment clean and recover from fires, flood and natural disaster at the lowest costs in the quickest possible time frame \n\n Al Mira Investment Group Co. Ltd established Al Mira Steamatic in 1991 currently operating in the Kingdom of Saudi Arabia with offices located in Dammam, Jubail, Jeddah, Makkah, Madina, Yanbu and Riyadh, we recently opened our branch in UAE Dubai \n\n Al Mira Steamatic has a history of being a leader in the indoor air quality and emergency response business. We have eleven profit sources namely Fire Restoration, Water Restoration, Carpet Cleaning, Furniture Cleaning, Drapery Cleaning, Air Duct and Coil Cleaning, Wood Restoration, Ceiling Cleaning and Wall and Floor Cleaning \n\nWe are proud to announce that Al Mira Steamatic is certified and accredited by some of the biggest companies and institutes in Restoration service"
@@ -267,7 +266,32 @@
     "title": "YOUR GATE TO INVESTMENT"
   },
   "about-page": {
-    "title": ""
+    "title": "About Almera",
+    "introduction": "Introduction",
+    "description": "From the beginning of the twentieth century, Abdulghani Ibrahim Mira commenced trading in spices from his shop located in Souk Al-sagheer opposite the holy Mosque in Makkah. In1977, Abdulghani Ibrahim Mira laid the foundation for Al-Mira Establishment for Trading and Import In1989Abdullatif and Mustafa, sons of Abdulghani Ibrahim Mira formed Al-Mira Centre for Trading Co. Ltd. Including the following",
+    "companies": {
+      "title": "Unleash Creativity with Alimra",
+      "furniture": {
+        "title": "Furniture and Carpets Department.",
+        "description": "Al Mira Furniture and Carpets Company was established more than five decades ago and has given its fame to the company in this commercial area in the Kingdom through its centres and exhibitions held in Dammam, Jeddah and Riyadh. Al Mira Trading Company Limited is also distinguished by trading in carpets and rugs for floors for decades and carpets have become associated with the name of Al Mira due to their fame in trading in it and their distinction from others due to the variety of carpets, whether pieces or rugs. We also have multiple agencies for American, Italian and Spanish products to import bedrooms with distinctive designs and shapes, dining rooms and living rooms. Al Mira Center also has a special department for decoration works managed by competent engineers. In turn, we import the best types of carpets and home furniture from most centres in the world."
+      },
+      "medical": {
+        "title": "Medical Department.",
+        "description": "Since 1979, the Medical Division has been furnishing and equipping government and private hospitals, as well as private clinics, with a wide range of medical equipment. We excel in diversifying our product offerings, including hospital beds, heart monitoring and ECG machines, X-ray and ultrasound devices, incubators, sterilization equipment, dental materials, high-tech medical devices, and a variety of medical furniture. Additionally, we represent numerous global manufacturers. Our offerings also include surgical instruments and medical consumables such as gauze, surgical drapes, syringes, butterfly needles, cannulas, and medical gloves, among others. Al Mira is proudly one of the first companies accredited by the Ministry of Health for the maintenance of X-ray equipment. We service more than 300 X-ray machines of various models from different manufacturers across Ministry of Health hospitals in various regions of the Kingdom, in addition to private hospitals and clinics."
+      },
+      "contracting": {
+        "title": "Contracting and Maintenance Department",
+        "description": "The Construction and Maintenance Department was established in 1978, covering the following areas of activity: construction of industrial and commercial buildings, maintenance of steel structures, including roof protection systems through waterproofing, thermal insulation, or anti-corrosion measures. Additionally, it provides preventive maintenance services, sells maintenance systems for buildings, and offers various building products and accessories. Finally, in 1992, the sons of Abdul Ghani Ibrahim Meera founded Al Mira Investment Group, which included the following:"
+      },
+      "steamatic": {
+        "title": "Al Mira Steamatic",
+        "description": "Al Mira Steamatic is the main agent for Steamatic USA. The company offers high-quality services such as indoor air solutions and emergency response services. Al Mira Steamatic continues to penetrate the market by focusing on three types of clients: homeowners, building owners, and insurance managers and officers. The company is well-positioned to capitalize on both trends by providing all necessary services to maintain a clean indoor environment and recover from fires, floods, and natural disasters at the lowest cost and in the shortest possible time frame."
+      },
+      "optics": {
+        "title": "Al Mira Optical Company Limited",
+        "description": "The company was established in 1993 with a unique and distinctive vision, solidifying its presence since then. Today, we have six branches across the Kingdom located in the most prestigious malls and distinguished locations. We offer the best equipment for eye examination and lens cutting, in addition to medical and colored contact lenses. We are always committed to providing the latest and finest international brands of eyeglasses, sunglasses, and contact lenses. Our constant goal is to deliver exceptional services to maintain the satisfaction of our valued customers."
+      }
+    }
   },
   "optics": {
     "title": "ALMIRA OPTICS",

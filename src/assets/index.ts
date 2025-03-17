@@ -4,6 +4,7 @@ import aboutImage from "./about-us-image.webp"
 
 import opticsLogo from "./optics-logo.svg"
 import steamaticLogo from "./steamatic-logo.svg"
+import footerLogo from "./footerLogo.png"
 
 import facts1 from "./facts1.svg"
 import facts2 from "./facts2.svg"
@@ -140,6 +141,7 @@ export {
   medicalLogo,
   medical1,
   medical2,
+  footerLogo,
   medical3,
   bed1,
   bed2,

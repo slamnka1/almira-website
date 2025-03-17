@@ -1,7 +1,7 @@
-import { logo } from "@/assets"
+import { footerLogo, logo } from "@/assets"
 import { navItems } from "@/content/site"
 import { Link } from "@/i18n/navigation"
-import { Mail, MapPin } from "lucide-react"
+import { Mail, MapPin, Phone } from "lucide-react"
 import { useTranslations } from "next-intl"
 
 export function Footer() {
@@ -12,22 +12,34 @@ export function Footer() {
       <div className="py-16 md:py-20 mx-auto w-full max-w-7xl px-5 md:px-10">
         {/* Component */}
         <div className="sm:flex-row flex justify-between flex-col">
-          <h2 className="font-bold text-3xl uppercase md:text-5xl w-full max-w-xl text-white">
+          {/* <h2 className="font-bold text-3xl uppercase md:text-5xl w-full max-w-xl text-white">
             {t("home.footer.title")}
-          </h2>
-          {/* <img src={logo.src} alt="almira group" /> */}
+          </h2> */}
+          <img src={footerLogo.src} alt="almira group" />
           <div className="mt-8 md:mt-0">
             <div className="mb-4 flex max-w-72 items-start gap-4 justify-start">
               <MapPin size={24} className="text-gray-200 shrink-0" />
               <p className="text-gray-200 text-sm sm:text-base">
-                8502 Preston Rd. Inglewood, Maine 98380, USA
+                {t("home.footer.location")}
               </p>
             </div>
             <div className="mb-4 gap-4 flex max-w-72 items-start justify-start">
               <Mail size={24} className="text-gray-200 shrink-0" />
-              <p className="text-gray-200  text-sm sm:text-base">
-                support@flowspark.co
-              </p>
+              <a
+                href="mailto:info@almiracentre.com"
+                className="text-gray-200  text-sm sm:text-base"
+              >
+                info@almiracentre.com
+              </a>
+            </div>
+            <div className="mb-4 gap-4 flex max-w-72 items-start justify-start">
+              <Phone size={24} className="text-gray-200 shrink-0" />
+              <a
+                href="tel:+966 13 827 3792"
+                className="text-gray-200  text-sm sm:text-base"
+              >
+                +966 13 827 3792
+              </a>
             </div>
           </div>
         </div>
