@@ -1,9 +1,11 @@
-import { bgShape, building, steel, orangeBG, steelLogo } from "@/assets"
+"use client"
+import { bgShape, building, orangeBG, steel, steelLogo } from "@/assets"
 import SegmentedControl from "@/components/segment-control"
-import { getTranslations } from "next-intl/server"
+import { motion } from "motion/react"
+import { useTranslations } from "next-intl"
 
-export async function Hero() {
-  const t = await getTranslations("contracting")
+export function Hero() {
+  const t = useTranslations("contracting")
   return (
     <section className="bg-[#F4F3F3] relative">
       <img
@@ -28,32 +30,91 @@ export async function Hero() {
               className="h-full absolute start-0"
               alt="background"
             />
-            <img src={building.src} alt="building" className=" h-full z-[1]" />
+            <motion.img
+              initial={{
+                y: 35,
+                opacity: 0,
+              }}
+              animate={{
+                y: 0,
+                opacity: 1,
+              }}
+              transition={{
+                delay: 0,
+                duration: 1,
+              }}
+              src={building.src}
+              alt="building"
+              className=" h-full z-[1]"
+            />
           </div>
           {/* Hero Content */}
           <div className="flex flex-col gap-8 mx-auto  py-10 ">
-            <div className="size-45 rounded-2xl p-5 bg-white shadow-xl mx-auto flex items-end justify-center">
+            <motion.div
+              initial={{
+                y: 15,
+                opacity: 0,
+              }}
+              animate={{
+                y: 0,
+                opacity: 1,
+              }}
+              transition={{
+                delay: 0.2,
+                duration: 1,
+              }}
+              className="size-45 rounded-2xl p-5 bg-white shadow-xl mx-auto flex items-end justify-center"
+            >
               <img src={steelLogo.src} className="w-full" alt="logo" />
-            </div>
-            <h1 className="mb-2 text-3xl font-bold md:text-4xl md:leading-tight text-center text-primary">
+            </motion.div>
+            <motion.h1
+              initial={{
+                y: 15,
+                opacity: 0,
+              }}
+              animate={{
+                y: 0,
+                opacity: 1,
+              }}
+              transition={{
+                delay: 0.6,
+                duration: 1,
+              }}
+              className="mb-2 text-3xl font-bold md:text-4xl md:leading-tight text-center text-primary"
+            >
               {t("title")}
-            </h1>
-            <SegmentedControl
-              data={[
-                {
-                  label: t("segment-control.home"),
-                  value: "/contracting",
-                },
-                {
-                  label: t("segment-control.services"),
-                  value: "https://al-mira.com/index.php/services",
-                },
-                {
-                  label: t("segment-control.projects"),
-                  value: "https://al-mira.com/index.php/projects",
-                },
-              ]}
-            />
+            </motion.h1>
+            <motion.div
+              initial={{
+                y: 15,
+                opacity: 0,
+              }}
+              animate={{
+                y: 0,
+                opacity: 1,
+              }}
+              transition={{
+                delay: 1.2,
+                duration: 1,
+              }}
+            >
+              <SegmentedControl
+                data={[
+                  {
+                    label: t("segment-control.home"),
+                    value: "/contracting",
+                  },
+                  {
+                    label: t("segment-control.services"),
+                    value: "https://al-mira.com/index.php/services",
+                  },
+                  {
+                    label: t("segment-control.projects"),
+                    value: "https://al-mira.com/index.php/projects",
+                  },
+                ]}
+              />
+            </motion.div>
           </div>
         </div>
       </div>

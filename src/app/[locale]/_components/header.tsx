@@ -58,6 +58,7 @@ export function Header() {
                             className="cursor-pointer p-2 hover:bg-gray-100 rounded"
                           >
                             <Link
+                              scroll={false}
                               className="flex grow rounded-lg px-5 items-center gap-5 py-5 xl:px-8"
                               href={option.link}
                             >
@@ -147,6 +148,7 @@ export function Header() {
                             className="cursor-pointer p-2 hover:bg-gray-100 rounded"
                           >
                             <Link
+                              scroll={false}
                               className="flex grow rounded-lg px-5 items-center gap-5 py-5 xl:px-8"
                               href={option.link}
                             >
