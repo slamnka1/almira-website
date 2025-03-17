@@ -236,21 +236,49 @@
       "description": "Al Mira Steamatic is a master franchisee of Steamatic Inc USA. Our company provides high quality indoor air services and emergency response services.\n\n Al Mira Steamatic continues to penetrate the market by focusing on three types of customers; the home owners, the building owners/managers and the insurance adjuster \n\n We provide them all the necessary services to keep the indoor environment clean and recover from fires, flood and natural disaster at the lowest costs in the quickest possible time frame \n\n Al Mira Investment Group Co. Ltd established Al Mira Steamatic in 1991 currently operating in the Kingdom of Saudi Arabia with offices located in Dammam, Jubail, Jeddah, Makkah, Madina, Yanbu and Riyadh, we recently opened our branch in UAE Dubai \n\n Al Mira Steamatic has a history of being a leader in the indoor air quality and emergency response business. We have eleven profit sources namely Fire Restoration, Water Restoration, Carpet Cleaning, Furniture Cleaning, Drapery Cleaning, Air Duct and Coil Cleaning, Wood Restoration, Ceiling Cleaning and Wall and Floor Cleaning \n\nWe are proud to announce that Al Mira Steamatic is certified and accredited by some of the biggest companies and institutes in Restoration service"
     },
     "customers": {
-      "first": {
-        "1": "first",
-        "2": "first"
-      },
       "second": {
-        "1": "text",
-        "2": "text2"
+        "1": "Sabic",
+        "2": "Saudi aramco",
+        "3": "tasnee company",
+        "4": "royal comission",
+        "5": "national guard hospitals",
+        "6": "king faisal hospital",
+        "7": "ministry of forign",
+        "8": "ministry of finance"
+      },
+      "first": {
+        "1": "General Authority of Civil Aviation",
+        "2": "Saudi oger",
+        "3": "saad hospital",
+        "4": "ministry of health",
+        "5": "Arabian centres",
+        "6": "al mouwasat hospital",
+        "7": "Dr. erfan&bagedo general hospital",
+        "8": "al zamil"
       }
     },
-    "services-page": {}
+    "services-page": {
+      "title": " Almira Steamatic Services",
+      "description": "Al Mira Steamatic is a master franchisee of Steamatic Inc USA. Our company provides high quality indoor air services and emergency response services.",
+      "details": "Al Mira Steamatic continues to penetrate the market by focusing on three types of customers; the home owners, the building owners/managers and the insurance adjuster \n\n We provide them all the necessary services to keep the indoor environment clean and recover from fires, flood and natural disaster at the lowest costs in the quickest possible time frame \n\n Al Mira Investment Group Co. Ltd established Al Mira Steamatic in 1991 currently operating in the Kingdom of Saudi Arabia with offices located in Dammam, Jubail, Jeddah, Makkah, Madina, Yanbu and Riyadh, we recently opened our branch in UAE Dubai \n\n Al Mira Steamatic has a history of being a leader in the indoor air quality and emergency response business. We have eleven profit sources namely Fire Restoration, Water Restoration, Carpet Cleaning, Furniture Cleaning, Drapery Cleaning, Air Duct and Coil Cleaning, Wood Restoration, Ceiling Cleaning and Wall and Floor Cleaning \n\n We are proud to announce that Al Mira Steamatic is certified and accredited by some of the biggest companies and institutes in Restoration service"
+    }
   },
   "gate": {
     "title": "YOUR GATE TO INVESTMENT"
   },
   "about-page": {
     "title": ""
+  },
+  "optics": {
+    "title": "ALMIRA OPTICS",
+    "segment-control": {
+      "home": "Home",
+      "gallery": "Gallery",
+      "brands": "Brands"
+    },
+    "about": {
+      "title": "About Al-Mira Optics",
+      "description": "The company was founded in 1993 and has established their presence. now there 's Al Mira Optics six branches in SA Upscale and very distinctive \n\n We've provided the best devices for detecting matter and equipment cut lenses \n\n And always strive to provide the latest and best global brands of glasses and sunglasses and contact lenses \n\n And constantly aim to provide the best services to keep valued customers"
+    }
   }
 }

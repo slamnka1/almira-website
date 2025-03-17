@@ -22,24 +22,8 @@ const Page = async () => {
             className="inline-block h-full w-full rounded-2xl object-cover ltr:scale-x-[-1]"
           />
           <div className="flex col-span-2 flex-col gap-5 rounded-2xl border border-solid border-black p-10 sm:p-12">
-            <h2 className="text-3xl font-bold md:text-4xl">
-              {t("details.title")}
-            </h2>
             <p className="text-sm whitespace-pre-line text-gray-500 sm:text-base">
-              {t("details.text1")}
-              <br />
-              <br />
-              {t("details.text2")}
-              <br />
-              <br />
-              {t("details.text3")}
-              <br />
-            </p>
-            <h2 className="text-xl font-bold md:text-2xl text-primary">
-              {t("details.text4")}
-            </h2>
-            <p className="text-sm whitespace-pre-line text-gray-500 sm:text-base">
-              {t("details.text5")}
+              {t("details")}
             </p>
           </div>
         </div>

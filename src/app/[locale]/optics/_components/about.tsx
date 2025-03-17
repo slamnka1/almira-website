@@ -14,7 +14,7 @@ export async function About() {
             <h1 className="mb-4 text-4xl font-bold md:text-6xl md:leading-tight text-primary">
               {t("title")}
             </h1>
-            <p className="mb-6 text-center max-lg:mx-auto max-w-lg whitespace-pre-line text-sm text-black sm:text-xl md:mb-10 lg:mb-12">
+            <p className="mb-6 text-center mx-auto max-w-lg whitespace-pre-line text-sm text-black sm:text-xl md:mb-10 lg:mb-12">
               {t("description")}
             </p>
             {/* Hero Button */}
