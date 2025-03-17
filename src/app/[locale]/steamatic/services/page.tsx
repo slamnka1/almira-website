@@ -19,7 +19,7 @@ const Page = async () => {
           <img
             src={vacumeAr.src}
             alt="vacume"
-            className="inline-block h-full w-full rounded-2xl object-cover ltr:scale-x-[-1]"
+            className="inline-block h-full w-full rounded-2xl object-contain ltr:scale-x-[-1]"
           />
           <div className="flex col-span-2 flex-col gap-5 rounded-2xl border border-solid border-black p-10 sm:p-12">
             <p className="text-sm whitespace-pre-line text-gray-500 sm:text-base">
