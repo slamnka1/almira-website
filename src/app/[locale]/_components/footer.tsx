@@ -35,8 +35,9 @@ export function Footer() {
             <div className="mb-4 gap-4 flex max-w-72 items-start justify-start">
               <Phone size={24} className="text-gray-200 shrink-0" />
               <a
+                dir="ltr"
                 href="tel:+966 13 827 3792"
-                className="text-gray-200  text-sm sm:text-base"
+                className="text-gray-200  text-sm sm:text-base "
               >
                 +966 13 827 3792
               </a>
