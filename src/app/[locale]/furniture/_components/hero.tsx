@@ -63,6 +63,10 @@ export function Hero() {
                   label: t("segment-control.projects"),
                   value: "/furniture/projects",
                 },
+                {
+                  label: t("furniture.carpets"),
+                  value: "/furniture/carpets",
+                },
               ]}
             />
           </div>
