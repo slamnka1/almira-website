@@ -27,9 +27,9 @@ export function Header() {
       : " position:relative;"
   }, [isOpened])
   return (
-    <header className="relative">
-      <nav className=" mx-auto h-auto w-full max-w-screen-2xl md:relative md:top-0">
-        <div className="flex px-6  flex-row md:items-center justify-between md:px-10 py-3 xl:px-20">
+    <header className=" absolute z-50 lg:top-7 left-0 right-0">
+      <nav className=" z-10 mx-auto h-auto w-full max-w-screen-lg md:relative md:top-0 bg-white lg:rounded-2xl">
+        <div className="flex px-6  flex-row md:items-center justify-between  py-3 ">
           <Link href="/">
             <img alt="logo" src={logo.src} className="h-10 lg:h-12" />
           </Link>
@@ -130,6 +130,7 @@ export function Header() {
                     <Accordion.Item value="1">
                       <Accordion.Header>
                         <Accordion.Trigger
+                          onClick={(e) => e.stopPropagation()}
                           key={element.label}
                           className={cn(
                             "flex rounded-lg px-3 lg:px-6 items-center justify-between md:gap-3 lg:gap-4 py-4  hover:bg-gray-100 hover:text-primary text-gray-800  w-full  ",
