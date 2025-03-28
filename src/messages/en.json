@@ -26,7 +26,10 @@
     },
     "footer": {
       "title": "Almira Group",
-      "location": "Dammam - Khobar Road, Nasiriyah, Dammam, Kingdom of Saudi Arabia.\n"
+      "location": "Dammam - Khobar Road, Nasiriyah, Dammam, Kingdom of Saudi Arabia.\n",
+      "sections": {
+        "title": "Sectors"
+      }
     }
   },
   "about": {
