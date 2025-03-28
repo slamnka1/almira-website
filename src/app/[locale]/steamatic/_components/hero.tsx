@@ -9,7 +9,7 @@ export function Hero() {
   return (
     <section className="bg-[#F4F3F3]">
       {/* Hero Container */}
-      <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-8 md:py-20">
+      <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-8 md:py-26">
         {/* Component */}
         <div className="grid items-center justify-items-start gap-8 sm:gap-16 lg:grid-cols-2">
           {/* Hero Content */}

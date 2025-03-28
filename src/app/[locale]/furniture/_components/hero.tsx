@@ -1,21 +1,21 @@
 "use client"
-import { furnitureLogo, sofaAr, sofaEn, wave } from "@/assets"
+import { furnitureLogo, sofaEn, wave } from "@/assets"
 import SegmentedControl from "@/components/segment-control"
-import { useTranslations } from "next-intl"
-import { useParams } from "next/navigation"
+import { ArrowRight, Globe } from "lucide-react"
 import { motion } from "motion/react"
+import { useTranslations } from "next-intl"
 
 export function Hero() {
   const t = useTranslations()
   return (
     <section className="bg-[#F4F3F3]">
       {/* Hero Container */}
-      <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-8 md:py-20">
+      <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-8 md:py-24">
         {/* Component */}
         <div className="grid items-center justify-items-start gap-8 sm:gap-16 lg:grid-cols-2">
           {/* Hero Content */}
           <div className=" flex flex-col gap-10 mx-auto">
-            <motion.div
+            <motion.a
               initial={{
                 y: 15,
                 opacity: 0,
@@ -28,10 +28,18 @@ export function Hero() {
                 delay: 0.2,
                 duration: 1,
               }}
-              className="size-40 rounded-2xl p-5 bg-white shadow-xl mx-auto flex items-end justify-center"
+              href="https://almiracentre.com.sa"
+              className="size-42 rounded-2xl p-5 bg-white shadow-xl mx-auto flex flex-col  items-end justify-center"
             >
               <img src={furnitureLogo.src} className="w-full" alt="furniture" />
-            </motion.div>
+              <div className="flex gap-1 justify-center w-full">
+                <Globe strokeWidth={1} className="text-primary" />
+                <ArrowRight
+                  strokeWidth={1}
+                  className="text-primary ltr:rotate-180"
+                />
+              </div>
+            </motion.a>
             <motion.h1
               initial={{
                 y: 15,
@@ -45,7 +53,7 @@ export function Hero() {
                 delay: 0.6,
                 duration: 1,
               }}
-              className="mb-4 text-4xl font-bold md:text-6xl md:leading-tight text-center text-primary"
+              className="mb-4 whitespace-nowrap text-4xl font-bold md:text-6xl md:leading-tight text-center text-primary"
             >
               {t("furniture.title")}
             </motion.h1>

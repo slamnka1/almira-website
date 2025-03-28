@@ -9,11 +9,11 @@ export function Hero() {
   return (
     <section className="bg-[#F4F3F3]">
       {/* Hero Container */}
-      <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-8 md:py-20">
+      <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-8 md:py-26">
         {/* Component */}
         <div className="grid items-center justify-items-start">
           {/* Hero Content */}
-          <div className="flex flex-col gap-10 mx-auto">
+          <div className="flex flex-col gap-10 mx-auto  pt-10">
             <motion.div
               initial={{
                 y: 15,

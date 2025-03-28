@@ -27,7 +27,7 @@ export function Header() {
       : " position:relative;"
   }, [isOpened])
   return (
-    <header className=" absolute z-50 lg:top-7 left-0 right-0">
+    <header className=" lg:absolute z-50 lg:top-5 left-0 right-0">
       <nav className=" z-10 mx-auto h-auto w-full max-w-screen-lg md:relative md:top-0 bg-white lg:rounded-2xl">
         <div className="flex px-6  flex-row md:items-center justify-between  py-3 ">
           <Link href="/">
