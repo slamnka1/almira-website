@@ -1,6 +1,7 @@
 "use client"
 import { bgShape, building, orangeBG, steel, steelLogo } from "@/assets"
 import SegmentedControl from "@/components/segment-control"
+import { ArrowRight, Globe } from "lucide-react"
 import { motion } from "motion/react"
 import { useTranslations } from "next-intl"
 
@@ -49,8 +50,8 @@ export function Hero() {
             />
           </div>
           {/* Hero Content */}
-          <div className="flex flex-col gap-8 mx-auto  py-10 ">
-            <motion.div
+          <div className="flex flex-col gap-8 mx-auto  py-16 ">
+            <motion.a
               initial={{
                 y: 15,
                 opacity: 0,
@@ -63,10 +64,18 @@ export function Hero() {
                 delay: 0.2,
                 duration: 1,
               }}
-              className="size-45 rounded-2xl p-5 bg-white shadow-xl mx-auto flex items-end justify-center"
+              href="https://al-mira.com"
+              className="size-45 rounded-2xl p-5 bg-white shadow-xl mx-auto flex flex-col items-end justify-center"
             >
               <img src={steelLogo.src} className="w-full" alt="logo" />
-            </motion.div>
+              <div className="flex gap-1 justify-center w-full">
+                <Globe strokeWidth={1} className="text-primary" />
+                <ArrowRight
+                  strokeWidth={1}
+                  className="text-primary ltr:rotate-180"
+                />
+              </div>
+            </motion.a>
             <motion.h1
               initial={{
                 y: 15,

@@ -1,6 +1,7 @@
 "use client"
 import { medical1, medical2, medical3, medicalLogo } from "@/assets"
 import SegmentedControl from "@/components/segment-control"
+import { ArrowRight, Globe } from "lucide-react"
 import { motion } from "motion/react"
 import { useTranslations } from "next-intl"
 
@@ -9,12 +10,12 @@ export function Hero() {
   return (
     <section className="bg-[#F4F3F3]">
       {/* Hero Container */}
-      <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-8 md:py-20">
+      <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-8 md:py-26">
         {/* Component */}
         <div className="grid items-center justify-items-start gap-8 sm:gap-16 lg:grid-cols-2">
           {/* Hero Content */}
           <div className="flex flex-col gap-10 mx-auto">
-            <motion.div
+            <motion.a
               initial={{
                 y: 15,
                 opacity: 0,
@@ -27,10 +28,17 @@ export function Hero() {
                 delay: 0.2,
                 duration: 1,
               }}
-              className="size-45 rounded-2xl p-5 bg-white shadow-xl mx-auto flex items-end justify-center"
+              className="size-45 rounded-2xl p-5 bg-white shadow-xl mx-auto flex flex-col items-end justify-center"
             >
               <img src={medicalLogo.src} className="w-full" alt="medical" />
-            </motion.div>
+              <div className="flex gap-1 justify-center w-full">
+                <Globe strokeWidth={1} className="text-primary" />
+                <ArrowRight
+                  strokeWidth={1}
+                  className="text-primary ltr:rotate-180"
+                />
+              </div>
+            </motion.a>
             <motion.h1
               initial={{
                 y: 15,

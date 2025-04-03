@@ -16,7 +16,7 @@ export default function SegmentedControl({
         <button
           key={tab.value}
           onClick={() => router.push(tab.value)}
-          className={`px-4 py-2 rounded-lg text-lg font-medium transition-colors ${
+          className={`px-2 md:px-4 py-1.5 md:py-2 rounded-lg md:text-lg font-medium transition-colors ${
             pathname === tab.value
               ? "bg-primary text-white"
               : "text-primary hover:bg-gray-200"
